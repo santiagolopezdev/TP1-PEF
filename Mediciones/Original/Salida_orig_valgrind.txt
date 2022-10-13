@@ -1,0 +1,27 @@
+==4644== Cachegrind, a cache and branch-prediction profiler
+==4644== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==4644== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==4644== Command: ./Final
+==4644== 
+--4644-- warning: L3 cache found, using its data for the LL simulation.
+==4644== error calling PR_SET_PTRACER, vgdb might block
+
+Ingrese el nombre de archivo Sonidos2.txt
+162455/100= 1624.55 || 201  6236
+Como guardar el archivo salida.txt
+==4644== 
+==4644== I   refs:      3,699,462
+==4644== I1  misses:        2,966
+==4644== LLi misses:        2,733
+==4644== I1  miss rate:      0.08%
+==4644== LLi miss rate:      0.07%
+==4644== 
+==4644== D   refs:      1,412,774  (991,598 rd   + 421,176 wr)
+==4644== D1  misses:       17,258  ( 14,597 rd   +   2,661 wr)
+==4644== LLd misses:        9,705  (  7,980 rd   +   1,725 wr)
+==4644== D1  miss rate:       1.2% (    1.5%     +     0.6%  )
+==4644== LLd miss rate:       0.7% (    0.8%     +     0.4%  )
+==4644== 
+==4644== LL refs:          20,224  ( 17,563 rd   +   2,661 wr)
+==4644== LL misses:        12,438  ( 10,713 rd   +   1,725 wr)
+==4644== LL miss rate:        0.2% (    0.2%     +     0.4%  )
