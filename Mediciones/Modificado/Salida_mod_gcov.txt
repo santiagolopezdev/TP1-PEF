@@ -1,5 +1,5 @@
 File 'Modificado.cpp'
-Lines executed:82.24% of 107
+Lines executed:91.74% of 109
 Creating 'Modificado.cpp.gcov'
 
 File '/usr/include/c++/11/iostream'
@@ -74,4 +74,4 @@ File '/usr/include/c++/11/new'
 Lines executed:66.67% of 3
 Creating 'new.gcov'
 
-Lines executed:89.07% of 375
+Lines executed:91.78% of 377

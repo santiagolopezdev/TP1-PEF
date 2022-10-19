@@ -18,8 +18,6 @@ int Decodificar(struct dato *d);
 int ValorMaxMinProm(struct dato *d);
 int GuardarArchivo(struct dato *d);
 void ImprimirPorConsola(struct dato *d);
-void LiberarMemoria(struct dato *d);
-
 int main(void) {
   dato* d = new struct dato;
   int error = 0;
@@ -30,12 +28,16 @@ int main(void) {
     return 0;
   }
 
+  ImprimirPorConsola(d);
+  
   error = Decodificar(d); // Funcion que comprime los datos del archivo
   if (error == 1) {
     cout << "\nFallo comprimiendo el texto";
     return 0;
   }
-  // ImprimirPorConsola(&d);
+
+  ImprimirPorConsola(d);
+  
   error = ValorMaxMinProm(d);
   if (error == 1) {
     cout << "\nFallo obteniendo el maximo/min/promedio";
